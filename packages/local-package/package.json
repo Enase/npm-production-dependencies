@@ -1,0 +1,16 @@
+{
+  "name": "local-package",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Enase/npm-production-dependencies",
+    "directory": "packages/local-package"
+  },
+  "devDependencies": {
+    "sinon": "9.0.0"
+  },
+  "engines": {
+    "node": "12.13.0",
+    "npm": "6.13.7"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "test-service",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Enase/npm-production-dependencies",
+    "directory": "services/test-service"
+  },
+  "dependencies": {
+    "local-package": "file:../../packages/local-package"
+  },
+  "engines": {
+    "node": "12.13.0",
+    "npm": "6.13.7"
+  }
+}
